@@ -49,6 +49,5 @@ Running the project :
 To install all the required packages, use the following command :
 $ pip install -r requirements.txt
 
-Run the receiveimage.py file to start the server. This opens up a port that waits for input messages. 
-Run senderimage.py file to start sending the image file. 
-Run the pyqt5app.py to display the image.
+To Run the project simply run threading.py to start the server, receive and view messages.
+Run the senderimage.py to send images to the server.
