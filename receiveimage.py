@@ -71,7 +71,7 @@ class rabbitmqServer():
 
 
 
-if __name__ == '__main__':
+def main():
     
     with open('config.txt','w') as f:
         f.write("False")

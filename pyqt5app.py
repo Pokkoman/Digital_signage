@@ -33,7 +33,8 @@ class Image_Widget(QWidget):
 
 
 
-if __name__ == '__main__':
+def main():
+    print("in pyqt5app main")
     app = QApplication(sys.argv)
     widget = Image_Widget()
     widget.resize(1000,1000)
