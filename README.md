@@ -5,7 +5,8 @@ Setting up RabbitMQ can be done in many ways. One of them is by manually downloa
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.9-management
 
 # for RabbitMQ 3.8,
-# 3.8.x support timeline: https://www.rabbitmq.com/versions.html
+# 3.8.x support timeline: 
+https://www.rabbitmq.com/versions.html
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.8-management
 
 Refer link for other OS : https://www.rabbitmq.com/download.html
