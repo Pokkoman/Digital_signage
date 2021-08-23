@@ -28,7 +28,7 @@ Creation of Virutal Enviroments can be done using the following commands :
 $python3 -m virtualenv /path/<envname>
 
 Activation of Virutal Enviroments can be done using the command :
-$python -m ../path/<envname>/Scripts/activate
+$python -m virtualenv ../path/<envname>/Scripts/activate
 
 Now you be in the virtual environment as stated in the terminal with a env prefix to your directory.
 Select the ../path/<envname>/Scripts/python as your interpreter to execute the python files.
